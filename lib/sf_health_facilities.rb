@@ -19,6 +19,6 @@ module SfHealthFacilities
         facilities << Facilities.new(facility_hash)
       end
       return facilities
-    endF
+    end
   end
 end
