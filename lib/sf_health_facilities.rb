@@ -1,4 +1,5 @@
 require "sf_health_facilities/version"
+require "unirest"
 
 module SfHealthFacilities
   class Facilities
@@ -18,6 +19,6 @@ module SfHealthFacilities
         facilities << Facilities.new(facility_hash)
       end
       return facilities
-    end
+    endF
   end
 end
